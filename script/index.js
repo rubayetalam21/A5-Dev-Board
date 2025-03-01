@@ -104,6 +104,7 @@ btnComplete05.addEventListener('click', function () {
     You have completed the task ${googleLLC} at ${timeTask}.
     `
     activityLog.appendChild(p);
+    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2", "my-2");
     btnComplete05.disabled = true;
 });
 
@@ -126,6 +127,7 @@ btnComplete06.addEventListener('click', function () {
     You have completed the task ${glassdoar} at ${timeTask}.
     `
     activityLog.appendChild(p);
+    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2", "my-2");
     btnComplete06.disabled = true;
 });
 
