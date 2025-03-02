@@ -14,7 +14,7 @@ btnComplete01.addEventListener('click', function () {
     You have completed the task ${fixMobile} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete01.disabled = true;
 });
 
@@ -31,7 +31,7 @@ const btnComplete02 = document.getElementById("btn-complete-02"); btnComplete02.
     You have completed the task ${addDark} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete02.disabled = true;
 });
 
@@ -49,7 +49,7 @@ btnComplete03.addEventListener('click', function () {
     You have completed the task ${optimizeHome} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete03.disabled = true;
 });
 
@@ -67,7 +67,7 @@ btnComplete04.addEventListener('click', function () {
     You have completed the task ${meta} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete04.disabled = true;
 });
 
@@ -85,7 +85,7 @@ btnComplete05.addEventListener('click', function () {
     You have completed the task ${googleLLC} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete05.disabled = true;
 });
 
@@ -103,7 +103,7 @@ btnComplete06.addEventListener('click', function () {
     You have completed the task ${glassdoar} at ${timeTask}.
     `
     activityLog.appendChild(p);
-    activityLog.classList.add("bg-blue-500", "text-white", "rounded-lg", "p-2");
+    activityLog.classList.add("text-black", "rounded-lg", "p-2");
     btnComplete06.disabled = true;
 });
 
